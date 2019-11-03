@@ -1,0 +1,94 @@
+.fpc-form-style-2{
+	width: 100%;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.fpc-form-style-2-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.fpc-form-style-2 label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.fpc-form-style-2 label > span{
+	font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.fpc-form-style-2 span.fpc-required{
+	color:red;
+}
+
+.fpc-form-style-2 input.fpc-input-field, .fpc-form-style-2 .fpc-select-field, .fpc-form-style-2 select{
+	width: 100%;	
+}
+.fpc-form-style-2 input.fpc-input-field, 
+.fpc-form-style-2 .fpc-tel-number-field, 
+.fpc-form-style-2 .fpc-textarea-field, 
+ .fpc-form-style-2 .fpc-select-field, .fpc-form-style-2 select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.fpc-form-style-2 .fpc-input-field:focus, 
+.fpc-form-style-2 .fpc-tel-number-field:focus, 
+.fpc-form-style-2 .fpc-textarea-field:focus,  
+.fpc-form-style-2 .fpc-select-field:focus, .fpc-form-style-2 select:focus{
+	border: 1px solid #0C0;
+}
+.fpc-form-style-2 .fpc-textarea-field{
+	height:100px;
+	width: 100%;
+}
+.fpc-form-style-2 input[type=submit],
+.fpc-form-style-2 input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.fpc-form-style-2 input[type=submit]:hover,
+.fpc-form-style-2 input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+}
+.fpc-tags{width: calc(100% - 100px) !important;}
+.fpc-tag_area{}
+.fpc-tag_area ul{}
+.fpc-tag_area ul li{display: inline-block;
+    margin-right: 10px;}
+.fpc_tag_remove{border: none;
+    background: none;
+    padding: 5px;
+    margin: 0px;
+	cursor:pointer}
+.fpc_error_content{}
+.fpc_error_content ul{padding-left: 0px !important;}
+.fpc_error_content ul li{list-style: none;
+    background: #f1b9b9;
+    border: 1px solid #ecb6b6;
+    padding: 10px;color:#4c4a4a}
