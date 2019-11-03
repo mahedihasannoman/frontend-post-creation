@@ -38,11 +38,6 @@ function fpc_lang_init() {
 }
 add_action( 'plugins_loaded', 'fpc_lang_init' );
 
-//pluing activation hook
-register_activation_hook( __FILE__, array( 'Fpchelper', 'plugin_activation' ) );
-//plugin deactivation hook
-register_deactivation_hook( __FILE__, array( 'Fpchelper', 'plugin_deactivation' ) );
-
 
 /*
 * @Callback: bp_after_has_members_parse_args
@@ -75,10 +70,8 @@ function fpc_remove_admin_member_from_buddy_member_page( $args ) {
 */
 function change_wp_dashboard_footer( $text ) {
 	$my_theme = wp_get_theme();
-	
     $text = '<p>'.$my_theme->get( 'Name' ).' | '.$my_theme->get( 'Version' ).'</p>' ;
-     
-return $text;
+	return $text;
 }
 
 //filter for changing WordPress's admin dashboard footer text

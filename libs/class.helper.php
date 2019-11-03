@@ -6,26 +6,6 @@ if (!defined('ABSPATH')) exit;
 */
 class Fpchelper
 {
-	
-	/*
-	* Since 1.0.0
-	* @Author: Mahedi Hasan	
-	* callback function for register_activation_hook
-	* Setup the necessery data, tables during plugin activation
-	*/
-	public function plugin_activation(){
-		//currently empty
-	}
-	/*
-	* Since 1.0.0
-	* @Author: Mahedi Hasan
-	* callback function for register_deactivation_hook
-	* Do something during plugin deactivation
-	*/
-	public function plugin_deactivation(){
-		//currently empty
-	}
-	
 	/*
 	* Since 1.0.0
 	* @Author: Mahedi Hasan

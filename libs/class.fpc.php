@@ -116,7 +116,7 @@ class Fpcmain
 			$title = sanitize_text_field($_POST['title']);
 			$tags = sanitize_text_field($_POST['tags']);
 			$post_content = $_POST['post_content'];
-			$category = apply_filters( 'sanitize_category_value', $_POST['cat'] );
+			$category = apply_filters( 'sanitize_category_value', (isset($_POST['cat'])?$_POST['cat']:array()) );
 			$allowed_html = wp_kses_allowed_html( 'post' );
 			$post_content = wp_unslash(wp_kses( trim($post_content), $allowed_html ));
 			
