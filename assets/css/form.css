@@ -2,6 +2,8 @@
 	width: 100%;
 	padding: 20px 12px 10px 20px;
 	font: 13px Arial, Helvetica, sans-serif;
+	max-width: 1080px;
+    margin: 0 auto;
 }
 .fpc-form-style-2-heading{
 	font-weight: bold;
