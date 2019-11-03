@@ -9,4 +9,4 @@ This plugin provides a filter which is `add_filter( 'bp_after_has_members_parse_
 
 This plugin also add current theme name & version in admin dashbord footer. The responsible filter for this feature is `add_filter('admin_footer_text', 'change_wp_dashboard_footer');` which is already added in pluign main file.
 
-You can see quick demo of Frontend Post Creation form here [a link](https://rsfaq.braintum.com/create-post/) 
+You can see quick demo of Frontend Post Creation form [here](https://rsfaq.braintum.com/create-post/).
